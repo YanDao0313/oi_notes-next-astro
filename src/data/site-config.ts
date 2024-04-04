@@ -58,15 +58,15 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    heroTitle: "<span class='name'>Mikan</span>'s Home",
-    title: "Mikan's Home",
+    heroTitle: "<span class='name'>Kris</span>'s Garden",
+    title: "Kris's Garden",
     avatar: {
         src: "/assets/avatar.jpg",
         alt: "Avatar"
     },
-    author: "Mikan",
-    subtitle: "彩笔懒狗一个",
-    description: '彩笔懒狗一个',
+    author: "Kris Yan",
+    subtitle: "数字花园 | 無限進步 @Schale夏萊",
+    description: '無限進步 @Schale夏萊',
     // image: {
     //     src: '/dante-preview.jpg',
     //     alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -81,17 +81,17 @@ const siteConfig: SiteConfig = {
         //     href: '/projects'
         // },
         {
-            text: 'Blog',
+            text: 'Notes',
             href: '/blog'
         },
         {
             text: 'Tags',
             href: '/tags'
-        },
-        {
-            text: 'Link',
-            href: '/link'
-        }
+        }//,
+        //{
+        //    text: 'Link',
+        //    href: '/link'
+        //}
     ],
     footerNavLinks: [
         {
@@ -116,17 +116,17 @@ const siteConfig: SiteConfig = {
         // }
     ],
     socialLinks: [
-        {
-            text: 'Instagram',
-            href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
-        },
+        //{
+        //    text: 'Instagram',
+        //    href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
+        //},
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/mikan_chn'
+            href: 'https://twitter.com/ImKrisYan'
         },
         {
             text: 'GitHub',
-            href: 'https://github.com/mitian233'
+            href: 'https://github.com/YanDao0313'
         }
     ],
     personalizedHero: true,
